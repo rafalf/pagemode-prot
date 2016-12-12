@@ -1,5 +1,6 @@
 ### Jasmine matchers
 
+```
 describe('jasmine matchers', function() {
   it('demonstrate use of built-in matchers', function() {
     expect(true).toBeTruthy();
@@ -29,3 +30,4 @@ describe('jasmine matchers', function() {
     expect(object.doSomething).toThrow(new Error("Unexpected error!"));
   });
 });
+```
