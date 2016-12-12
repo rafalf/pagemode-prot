@@ -23,7 +23,11 @@ describe('demo test', function() {
         var searched = $('.jsShortName').getText();
         expect(searched).toBe('Rafal Fusik');
 
-        search.logCatagegories();
+        search.logCategories();
+
+        search.logCategoriesWithIndex();
+
+        expect(search.getCategories().count()).toBe(12);
 
 //        browser.pause();
     });
