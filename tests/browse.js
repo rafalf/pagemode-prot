@@ -1,14 +1,21 @@
 describe('demo test', function() {
 
+    // Pages
     var home = require('../pages/home.js');
     var page = require('../pages/page.js');
-    var search = require('../pages/search.js')
+    var search = require('../pages/search.js');
 
     beforeEach(function(){
-        home.get();
+        console.log('\nStart test ---->')
+    });
+
+    afterEach(function () {
+        console.log('\nComplete test ---->')
     });
 
     it('search my name', function() {
+
+        home.get();
 
         home.selectSearch();
 
@@ -30,5 +37,11 @@ describe('demo test', function() {
         expect(search.getCategories().count()).toBe(12);
 
 //        browser.pause();
+
+    });
+
+    it ('read json file', function(){
+        var rjson = require('../utils/sample.json');
+        console.log(rjson);
     });
 });

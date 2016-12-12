@@ -31,3 +31,8 @@ describe('jasmine matchers', function() {
   });
 });
 ```
+
+### Mock add module
+(1 - Blog)[http://prashantsahni.in/blog/2014/09/28/mocking-apis-integration-testing-with-protractor.html]
+(2 - stack)[http://stackoverflow.com/questions/24244803/call-other-api-when-running-tests-using-protractor]
+(3 - stack)[http://stackoverflow.com/questions/24259746/protractor-addmockmodule-and-httpprovider-interceptor/24263678#24263678]
