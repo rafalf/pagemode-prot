@@ -22,10 +22,6 @@ var homePage = function(){
         serachFree.click();
     };
 
-//    this.getName = function(){
-//       return element(by.binding('')).getText();
-//
-//    };
 };
 
 module.exports = new homePage();

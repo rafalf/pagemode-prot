@@ -1,26 +1,29 @@
 describe('demo test', function() {
 
-    var homePage = require('../pages/home.js');
+    var home = require('../pages/home.js');
     var page = require('../pages/page.js');
+    var search = require('../pages/search.js')
 
     beforeEach(function(){
-        homePage.get();
+        home.get();
     });
 
     it('search my name', function() {
 
-        homePage.selectSearch();
+        home.selectSearch();
 
-        homePage.selectFreelancers();
+        home.selectFreelancers();
 
-        homePage.enterToFind('rafalfusik');
+        home.enterToFind('rafalfusik');
 
         page.sendEnter();
 
         expect(browser.getCurrentUrl()).toContain('q=rafalfusik');
 
-        var searched = element(by.css('.jsShortName')).getText();
+        var searched = $('.jsShortName').getText();
         expect(searched).toBe('Rafal Fusik');
+
+        search.logCatagegories();
 
 //        browser.pause();
     });
