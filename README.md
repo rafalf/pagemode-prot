@@ -5,9 +5,8 @@
 ### Install reporting ( local installation ):
 * cd ./confs/ and npm install command from the links below:
 ( if link no. 1 aint working fine for you, use the command from no. 2)
-[1 - html reporter](https://www.npmjs.com/package/protractor-jasmine2-html-reporter)
-or
-[2 - html reporter](https://www.npmjs.com/package/protractor-jasmine2-screenshot-reporter/tutorial)
+* [1 - html reporter](https://www.npmjs.com/package/protractor-jasmine2-html-reporter)
+* [2 - html reporter](https://www.npmjs.com/package/protractor-jasmine2-screenshot-reporter/tutorial)
 
 ## Run:
 * run ```cmd``` and start webdriver: ```webdriver-manager start``` and leave the server running
@@ -54,6 +53,6 @@ describe('jasmine matchers', function() {
 ```
 
 ### Mock add module
-(1 - Blog)[http://prashantsahni.in/blog/2014/09/28/mocking-apis-integration-testing-with-protractor.html]
-(2 - stack)[http://stackoverflow.com/questions/24244803/call-other-api-when-running-tests-using-protractor]
-(3 - stack)[http://stackoverflow.com/questions/24259746/protractor-addmockmodule-and-httpprovider-interceptor/24263678#24263678]
+* [1 - Blog](http://prashantsahni.in/blog/2014/09/28/mocking-apis-integration-testing-with-protractor.html)
+* [2 - stack](http://stackoverflow.com/questions/24244803/call-other-api-when-running-tests-using-protractor)
+* [3 - stack](http://stackoverflow.com/questions/24259746/protractor-addmockmodule-and-httpprovider-interceptor/24263678#24263678)
